@@ -1,0 +1,63 @@
+.body {
+  margin: 0;
+  box-sizing: 0;
+  align-items: center;
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+form {
+  margin-top: 20px;
+  width: 300px;
+}
+.card {
+  width: 250px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 5px #ccc;
+}
+label {
+  color: #ccc;
+  font-size: 10px;
+}
+#cardnumber,
+#cvv {
+  width: 100%;
+}
+
+.editdel {
+  background-color: transparent;
+  color: blue;
+  padding: 5px 10px;
+  border: none;
+}
+input,
+select {
+  border: none;
+  padding: 5px 10px;
+  border-bottom: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+input:focus,
+select:focus,
+.editdel:focus {
+  outline: none;
+}
+.submit {
+  margin-top: 20px;
+  color: #fff;
+  background-color: tomato;
+  padding: 10px 20px;
+  display: block;
+  border: none;
+  width: 100%;
+}
+
+#error {
+  color: red;
+  font-size: 10px;
+}

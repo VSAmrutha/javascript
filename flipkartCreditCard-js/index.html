@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>Flipkart</title>
+  </head>
+
+  <body>
+    <!-- Manage Credit Card--- Form 1 -->
+    <div class="main">
+      <div id="cardDisplay"></div>
+      <!-- Manage Credit Card--- Form 2 -->
+      <form id="form2">
+        <div>
+          <label>Card Number</label>
+          <input name="cardnumber" id="cardnumber" type="text" required />
+        </div>
+        <label>Expiry</label>
+
+        <div id="monthExpiry"></div>
+
+        <input name="cvv" id="cvv" type="text" placeholder="CVV" required />
+
+        <button type="submit" class="submit">Submit</button>
+        <p id="error"></p>
+      </form>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
